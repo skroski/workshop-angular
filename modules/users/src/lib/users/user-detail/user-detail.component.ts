@@ -1,6 +1,5 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute } from '@angular/router';
 import { UserService } from '../shared/user.service';
 import { getParamsId } from './get-params-id';
 import { switchMap } from 'rxjs';
